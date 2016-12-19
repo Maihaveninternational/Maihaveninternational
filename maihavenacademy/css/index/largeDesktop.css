@@ -1,0 +1,398 @@
+/* Large desktop */
+
+@media (min-width : 1200px) {
+	
+	#bodyContainer{
+		background:#fff;
+		width:100%;
+		height:auto;
+		margin:0 auto;
+		padding:0;
+		font-family:"chaparral Pro";
+	}
+
+	#topbar {
+		background:#0db7ff;
+		width:100%;
+		height:60px;
+		position:fixed;
+		display:block;
+		top:0;
+		color:#fff;
+	}
+	
+	#topbar .topbarInner {
+		background:;
+		width:1200px;
+		height:47px;
+		margin:0 auto;
+		padding:12px 0 0 0;
+		font-size:35px;
+	}
+	
+	#topbar .topbarInner a {
+		color:#fff;
+		text-decoration:none;
+	}
+		
+	#intro {
+		background:;
+		width:100%;
+		height:auto;
+		margin:0 auto 50px auto;
+		padding:180px 0 0 0;
+	}
+	
+	#intro .introText1 {
+		background:;
+		font-size:50px;
+		font-weight:bold;
+		width:1200px;
+		height:auto;
+		margin:0 auto 0 auto;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	
+	#intro .introText2 {
+		background:;
+		font-size:25px;
+		font-weight:bold;
+		width:800px;
+		height:auto;
+		margin:30px auto 0 auto;
+		text-align:center;
+	}
+
+	#intro .introButton {
+		font-size:25px;
+		color:#fff;
+		width:auto;
+		height:auto;
+		margin:30px auto;
+		text-align:center;
+	}
+	
+	#intro .introButton a {
+		background:#0db7ff;
+		padding:10px 50px 10px 50px;
+		border-radius:10px;
+		text-decoration:none;
+		color:#fff;		
+	}
+
+	#intro .introButton a:hover {
+		background:#009BDD;		
+	}
+	
+	#intro .introText3 {
+		background:;
+		font-size:22px;
+		font-weight:light;
+		width:500px;
+		height:auto;
+		margin:100px auto 0 auto;
+		text-align:center;
+	}
+
+	#intro .introText4 {
+		background:;
+		font-size:22px;
+		font-weight:light;
+		width:500px;
+		height:auto;
+		margin:50px auto 0 auto;
+		text-align:center;
+	}	
+			
+	#freeCourse {
+		background:#CCC;
+		width:100%;
+		height:auto;
+	}
+	
+	#freeCourse .freeCourse {
+		background:;
+		width:1200px;
+		height:auto;
+		margin:100px auto;
+		padding:20px 0 20px 0;		
+	}
+	
+	#freeCourse .freeCourse .freeCourseText {
+		background:;
+		font-size:50px;
+		font-weight:bold;
+		width:1200px;
+		height:auto;
+		margin:0 auto 0 auto;
+		text-align:center;
+	}
+
+	#freeCourse .freeCourse .freeCourseIntroText {
+		background:;
+		font-size:22px;
+		font-weight:light;
+		width:800px;
+		height:auto;
+		margin:30px auto 0 auto;
+		text-align:center;
+	}
+	
+	#freeCourse .freeCourse .freeCourseImg {
+		background:;
+		width:576px;
+		height:288px;
+		margin:40px auto 0 auto;
+		text-align:center;
+		box-shadow:0px 0px 10px 5px;
+	}
+
+	#freeCourse .freeCourse .freeCourseImgText {
+		background:;
+		font-size:25px;
+		font-weight:light;
+		width:1200px;
+		height:auto;
+		margin:30px auto 0 auto;
+		text-align:center;
+	}
+
+	#freeCourse .freeCourse .freeCourseImgText a {
+		text-decoration:none;
+		color:#000;
+	}
+	
+	#freeCourse .freeCourse .freeCourseImgIntroText {
+		background:;
+		font-size:22px;
+		font-weight:light;
+		width:400px;
+		height:auto;
+		margin:30px auto 0 auto;
+		text-align:center;
+	}
+
+	#freeCourse .freeCourse .freeCourseImgIntroText a {
+		text-decoration:none;
+		color:#000;
+	}
+	
+	#pinnacleAcademy{
+		background:;
+		overflow:hidden;
+		display:block; 
+		width:1205px;
+		height:auto;
+		margin:0px auto;
+		padding:0 0 0 0px;	
+    }
+	
+	#pinnacleAcademy .articlesBoxTitle {
+		background:;
+		width:1200px;
+		height:auto;
+		margin:0 auto 20px auto;
+	}
+	
+	#pinnacleAcademy .articlesBoxTitle .articlesBoxTitleWords {
+		font-size:50px;
+		font-weight:bold;
+		text-align:center;
+	}
+			
+	#pinnacleAcademy .articlesBox{
+		background:;
+		float:left;
+		width:300px;
+		height:auto;
+		display:block;
+		margin:20px 0 5px 75px;
+	}
+
+	#pinnacleAcademy .articlesBox .articlesImage{
+		background:#CCC;
+		width:300px;
+		height:200px;
+		display:block;
+	}
+		
+	#pinnacleAcademy .articlesBox .articlesTitle{
+		background:;
+		height:auto;
+		width:300px;
+		margin: 20px 0 20px 0;
+		font-size:25px;
+		font-weight:bold;
+		color:#004080;
+	}
+
+	#pinnacleAcademy .articlesBox .articlesInfo{
+		background:;
+		width:300px;
+		height:auto;
+		margin:auto;
+		font-size:20px;
+		font-weight:light;
+		color:#000;
+	}
+	
+	#pinnacleAcademy .articlesBox a{
+		text-decoration:none;
+	}
+	
+	.articlesBoxAllPosts {
+		background:;
+		height:50px;
+		width:1200px;
+		margin:0 auto 150px auto;
+	}
+	
+	.articlesBoxAllPostsButton {
+		background:#0db7ff;
+		height:32px;
+		width:500px;
+		margin:30px auto 0 auto;
+		padding:18px 0 0 0;
+		text-align:center;
+		color:#fff;
+		border-radius:10px;			
+	}
+	
+	.articlesBoxAllPostsButton:hover {
+		background:#009BDD;
+	}
+					
+	#footer{
+		background:#0db7ff;
+		width:100%;
+		height:300px;
+    }
+	
+	#footer .footerInner {
+		background:;
+		width:1200px;
+		height:300px;
+		margin:0 auto;
+	}
+
+	#footer .footerInner .aboutPinnacleAcademy {
+		background:;
+		float:left;
+		width:300px;
+		height:auto;
+	}
+
+	#footer .footerInner .aboutPinnacleAcademy .aboutPinnacleAcademyList {
+		font-size:19px;
+		font-weight:bold;
+		color:#fff;
+		text-decoration:none;
+		text-transform:uppercase;		
+		margin:50px 0 30px 0;
+	}
+
+	#footer .footerInner .aboutPinnacleAcademy .aboutPinnacleAcademyList1 {
+		font-size:20px;
+		margin-bottom:10px;		
+	}
+
+	#footer .footerInner .aboutPinnacleAcademy .aboutPinnacleAcademyList1 a {
+		color:#fff;
+		text-decoration:none;
+	}
+	
+	#footer .footerInner .aboutSelfPinnacle {
+		background:;
+		float:left;
+		width:300px;
+		height:auto;
+	}
+
+	#footer .footerInner .aboutSelfPinnacle .aboutSelfPinnacleList {
+		font-size:19px;
+		font-weight:bold;
+		color:#fff;
+		text-decoration:none;
+		text-transform:uppercase;
+		margin:50px 0 30px 0;		
+	}
+	
+	#footer .footerInner .customerSupport {
+		background:;
+		float:left;
+		width:300px;
+		height:auto;
+	}
+
+	#footer .footerInner .customerSupport .customerSupportList {
+		font-size:19px;
+		font-weight:bold;
+		color:#fff;
+		text-decoration:none;
+		text-transform:uppercase;
+		margin:50px 0 30px 0;				
+	}
+	
+	#footer .footerInner .connectWithUs {
+		background:;
+		float:left;
+		width:300px;
+		height:auto;
+	}
+
+	#footer .footerInner .connectWithUs .connectWithUsList {
+		font-size:19px;
+		font-weight:bold;
+		color:#fff;
+		text-decoration:none;
+		margin:50px 0 30px 0;
+		text-transform:uppercase;						
+	}
+	
+	#footer .footerInner .bottomBar {
+		background:;
+		float:left;
+		width:1200px;
+		height:auto;
+		margin-top:50px;
+	}
+
+	#footer .footerInner .bottomBar .bottomBarInner {	
+		background:;
+		width:1200px;
+		height:40px;
+		margin:0 auto;
+		padding:0;
+	}
+
+	#footer .footerInner .bottomBar .bottomBarInner .logo{
+		height:auto;
+		width:auto;
+		float:left;
+		font-size:35px;
+		margin:45px 0 0 0;	
+	}
+	
+	#footer .footerInner .bottomBar .bottomBarInner .courtesy {	
+		height:auto;
+		width:auto;
+		float:right;	
+		font-size:20px;	
+		color:#fff;
+		margin:55px 30px 0 0;		
+	}
+	
+	#footer .footerInner .bottomBar .bottomBarInner a {
+		color:#fff;
+		text-decoration:none;
+	}
+
+	#footer .footerInner .bottomBar .bottomBarInner .selfPinnacleLogo {
+		background:url(../../images/selfpinnaclelogo.png) no-repeat;
+		height:80px;
+		width:160px;
+		padding:0 0 0 10px;
+		float:right;		
+	}
+}
