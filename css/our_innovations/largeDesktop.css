@@ -1,0 +1,108 @@
+/* Large desktop */
+
+@media only screen and (min-width : 1200px) {
+	
+	html { height: 100%; }
+
+	.container{
+		background:;
+		height:100%;
+		width:1200px;
+		margin:0 auto 0 auto;
+		font-family:"chaparral Pro";		
+	}
+		
+	.container .logo{
+		position:fixed;
+		top:40px;
+		left:;
+		background:url(../../images/maihaveninternationallogoblack.png) no-repeat;
+		height:80px;
+		width:160px;
+	}
+	
+	.container a{
+		text-decoration:none;
+		box-shadow:0px 0px 10px 2px;				
+	}
+	
+	.container .backButton{
+		position:fixed;
+		top:120px;
+		left:;
+		background:#0db7ff;
+		color:#fff;
+		font-size:20px;
+		height:auto;
+		width:40px;
+		padding:5px 60px 5px 60px;
+		border-radius:5px;
+		box-shadow:0px 0px 10px 2px;				
+	}
+
+	.container .backButton:hover{
+		background:#009BDD;
+	}
+	
+	.container .content{
+		background:;
+		height:100%;
+		width:800px;
+		margin:140px auto;
+	}
+
+	.container .content .title{
+		font-size:90px;
+		font-weight:bold;
+		text-align:center;
+		margin:0 0 20px 0;
+	}
+	
+	.container .content .subTitle{
+		font-size:25px;
+		margin:0 0 20px 0;		
+	}
+	
+	.container .content .image{
+		background:#CCC;
+		padding:0;
+		height:400px;
+		width:800px;
+		margin:0 0 30px 0;
+		box-shadow:0px 0px 10px 5px;		
+	}
+	
+	.container .content .intro{
+		font-size:25px;
+		margin:0 0 50px 0;		
+	}
+
+	.container .content .clickButton{
+		background:;
+		width:800px;
+		margin:0 0 100px 0;		
+		box-shadow:0px 0px 10px 2px;		
+		border-radius:10px;				
+	}
+
+	.container .content .clickButton a{
+		text-decoration:none;
+	}
+	
+	.container .content .clickButton a .clickButtonInner{
+		background:#0db7ff;
+		margin:0 auto;
+		height:auto;
+		width:auot;
+		text-align:center;
+		padding:10px;
+		color:#fff;
+		font-size:25px;
+		border-radius:10px;
+	}	
+
+	.container .content .clickButton a .clickButtonInner:hover{
+		background:#009BDD;
+	}	
+	
+				

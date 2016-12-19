@@ -1,0 +1,60 @@
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	#bodyContainer{
+		background:#fff;
+		width:100%;
+		height:auto;
+		margin:0 auto;
+		padding:0;
+		font-family:"chaparral Pro";
+	}
+	
+	#content {
+		background:;
+		height:400px;
+		width:1232px;
+		margin:0 auto;
+		padding:200px 0 0 0;
+	}
+	
+	#content .logo {
+		background:;
+		height:auto;
+		width:1232px;
+		text-align:center;
+		font-size:150px;
+	}
+	
+	#content .logoButton {
+		background:;
+		height:;
+		width:1232px;
+	}
+	
+	#content .logoButtonInner {
+		background:#049bdb;
+		height:40px;
+		width:400px;
+		padding:10px 0 0 0;
+		margin:50px auto 0 auto;
+		text-align:center;
+		border-radius:5px;
+		font-size:30px;
+		color:#fff;
+	}
+
+	#content .logoButtonInner:hover {
+		background:0db7ff;
+	}
+	
+	#footer {
+		background:;
+		height:100px;
+		width:1232px;
+		margin:0 auto;
+		bottom:0px;
+	}
+
+}

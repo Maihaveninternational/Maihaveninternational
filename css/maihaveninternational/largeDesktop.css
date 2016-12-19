@@ -1,0 +1,162 @@
+/* Large desktop */
+
+@media only screen and (min-width : 1200px) {
+
+/* Menu Style */
+	
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background:#fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+	border-radius:5px;
+}
+
+.sidenav a {
+	background:;
+    padding:10px 0 10px 32px;
+	margin:0 0 10px 0;
+    text-decoration: none;
+    font-size: 22px;
+	font-weight:bold;
+    color:#333;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #0db7ff;
+	border-left:5px solid #0db7ff;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+/* Menu Style Ends */
+
+
+	.bodyContainer{
+		margin:0 auto 0 auto;
+		height:100%;
+		font-family:"chaparral Pro";
+	}
+
+	.container{
+		background:;
+		height:100%;
+		width:100%;
+	}
+	
+	.container .content{
+		background:;
+		height:100%;
+		width:1200px;
+		margin:0 auto;
+	}
+	
+	.container .content .topbar{
+		background:;
+		height:20%;
+		width:1200px;
+		padding:40px 0 0 0;
+	}
+
+	.container .content .topbar .logo{
+		background:url(../../images/maihaveninternationallogo.png) no-repeat;
+		height:80px;
+		width:160px;
+		padding:0 0 0 10px;
+		float:left;
+	}
+	
+	.container .content .topbar .menuButton{
+		background:#fff;
+		height:auto;
+		width:auto;
+		float:right;
+		font-size:22px;
+		font-weight:bold;
+		padding:15px 15px 10px 15px;
+		color:#666;
+		cursor:pointer;
+		border-radius:5px;
+	}
+
+	.container .content .topbar .menuButton:hover{
+		color:#0db7ff;
+	}
+	
+	.container .content .mainContent{
+		background:;
+		height:80%;
+		width:1200px;
+	}
+	
+	.container .content .mainContent .welcome{
+		background:;
+		height:auto;
+		width:100%;
+		text-align:center;
+		color:#FFF;
+		font-size:90px;
+		font-weight:bold;
+		padding:80px 0 0 0;
+	}
+
+	.container .content .mainContent .slogan{
+		background:;
+		height:auto;
+		width:100%;
+		text-align:center;
+		color:#FFF;
+		font-size:30px;
+		font-weight:bold;
+		padding:10px 0 0 0;
+	}
+
+	.container .content .mainContent .intro{
+		background:;
+		height:auto;
+		width:100%;
+		color:#FFF;
+		font-size:20px;
+	}
+	
+	.container .content .mainContent .intro .introInner{
+		background:;
+		height:auto;
+		width:600px;
+		text-align:center;
+		margin:20px auto;
+		padding:20px;
+		border-top:1px solid #fff;
+		border-bottom:1px solid #fff;		
+	}
+	
+	.container .content .mainContent .social{
+		background:;
+		height:auto;
+		width:100%;
+		color:#FFF;
+		font-size:20px;
+	}
+	
+	.container .content .mainContent .social .socialInner{
+		background:;
+		height:auto;
+		width:600px;
+		text-align:center;
+		margin:20px auto;
+	}
+}
